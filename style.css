@@ -145,12 +145,32 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0px 50px;
-    background-color: rgb(255, 255, 255,0.5);
+    background-color: rgb(255, 255, 255,0.7);
     border: 5px ridge rgb(255, 187, 0);
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 .video .content{
     padding: 50px;
     line-height: 150%;
     font-size: 20px;
+}
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255,0.7);
+    padding: 20px;
+    border: 5px ridge rgb(252, 252, 252);
+    border-radius: 10px;
+}
+.news-item{
+    width: 33%;
+}
+.news-item img{
+    width: 100%;
+}
+.news-item h3{
+    padding-top: 5px;
+    margin-bottom: 5px;
 }
