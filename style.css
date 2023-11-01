@@ -139,6 +139,13 @@ body {
     text-decoration: none;
     display: inline;
 }
+.menu a{
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: white;
+}
 
 .video{
     display: flex;
@@ -155,6 +162,18 @@ body {
     line-height: 150%;
     font-size: 20px;
 }
+h2{
+    width: 300px;
+    height: 80px;
+    padding-top: 15px;
+    text-align: center;
+    background:linear-gradient(to top,orange 40%,yellow);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 5px ridge rgb(252, 252, 252);
+}
 .news{
     width: 100%;
     display: flex;
@@ -163,6 +182,8 @@ body {
     padding: 20px;
     border: 5px ridge rgb(252, 252, 252);
     border-radius: 10px;
+    margin-bottom: 50px;
+    line-height: 150%;
 }
 .news-item{
     width: 33%;
@@ -170,7 +191,56 @@ body {
 .news-item img{
     width: 100%;
 }
+
 .news-item h3{
     padding-top: 5px;
     margin-bottom: 5px;
+}
+
+.member{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(9, 57, 109, 0.7);
+    border: 5px ridge rgb(252, 252, 252);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 20px;
+}
+.member-item{
+    width: 24%;
+    border: 5px inset rgb(255, 204, 0);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    line-height: 150%;
+}
+.member-item img{
+    width: 100%;
+}
+.member-item h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 0px 5px black;
+    background: linear-gradient(to right,rgb(64, 230, 147),rgb(119, 219, 169), rgb(64, 230, 147));
+}
+.media{
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
 }
